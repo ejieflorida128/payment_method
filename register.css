@@ -1,0 +1,78 @@
+*{
+   color: white;
+}
+        body {
+            font-family: Arial, sans-serif;
+            background: url(image/payment.png);
+            background-position: center;
+             background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #loginText{
+            background-color:white;
+            color: black;
+            padding: 20px;
+            position: relative;
+            width:190px;
+            border-radius: 20px;
+            top: 10px;
+        }
+        
+        #loginText:hover{
+            background-color: black;
+            color: white;
+        }
+        
+
+        form {
+            width: 400px;
+            padding: 40px;
+            background-color: transparent; 
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            backdrop-filter: blur(2px);
+            border-radius: 20px;
+            
+        }
+
+        .form h3{
+            display:flex;
+            justify-content: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"], input[type="button"] {
+            background-color: #af984c; 
+            color: black;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover, input[type="button"]:hover {
+            background-color: #9ea045;
+            color: black;
+        }
+
+
+        input{
+            color: black;
+        }
+      
+        
+    
